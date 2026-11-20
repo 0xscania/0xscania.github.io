@@ -1,0 +1,8 @@
+*backup*
+*.key
+*.pem
+.env
+node_modules/
+
+
+
