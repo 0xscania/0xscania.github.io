@@ -2,17 +2,19 @@
 
 GitHub Pages home for **scanïa / 0xscania.muse** — crypto enthusiast, developer, creator. Airdrops, testnets, bug fixes, bounties.
 
-Live site (once published): **https://0xscania.github.io/**
+Find me on X: scanïe — [@0xscanie](https://x.com/0xscanie) — https://x.com/0xscanie
+
+Live site: **https://0xscania.github.io/**
 
 > ⚠️ **SECURITY — READ FIRST**
-> This site contains **public information only**: public wallet addresses, project descriptions, and faucet links. The seed phrase (mnemonic) and private keys for `0xscania.muse.ai.bw` are **never** in this repo — not in any file, not in git history. They live only in private backup files, offline and in scanïa's private Google Drive folder. Never share them.
+> This site contains **public information only**: public wallet addresses, project descriptions, and faucet links. The seed phrase (mnemonic) and private keys for both burner wallets (`0xscania.muse.ai.bw` and `0xscania.muse.ai.bw2`) are **never** in this repo — not in any file, not in git history. They live only in private backup files, offline and in scanïa's private Google Drive folder. Never share them.
 
 ## Pages
 
-- `index.html` — hero, motto "DYOR on anything — everything.", projects, wallet preview, faucets preview, about, links, security note
-- `wallets.html` — all 12 public addresses of the multi-chain burner wallet `0xscania.muse.ai.bw` (chain + derivation path, copyable), plus the Circle agent wallet on Arc (testnet + mainnet)
-- `faucets.html` — free testnet faucets, verified 2026-11-20
-- `styles.css` / `script.js` — dark theme, copy-to-clipboard, no external JS dependencies, no tracking
+- `index.html` — hero, motto "DYOR on anything — everything.", projects, wallet preview (both wallets), faucets preview, about, links, security note
+- `wallets.html` — all 12 public addresses of each of the two multi-chain burner wallets — `0xscania.muse.ai.bw` (Testnet wallet) and `0xscania.muse.ai.bw2` (Mainnet-ready wallet) — chain + derivation path, copyable, plus the Circle agent wallet on Arc (testnet + mainnet)
+- `faucets.html` — free testnet faucets, verified 2026-11-20, with addresses for both wallets
+- `styles.css` / `script.js` — Bron-inspired light theme, copy-to-clipboard, no external JS dependencies, no tracking
 
 ## Deploy (GitHub Pages user site)
 
@@ -33,3 +35,10 @@ GitHub Pages serves the site from the `main` branch (Settings → Pages → Sour
 - Telegram: https://t.me/s/airdropfind
 - Arc testnet explorer: https://explorer.testnet.arc.io/address/0x91963e48ebc021a9f08ca6b50b6f005207d1d8fd
 - Arc mainnet explorer: https://explorer.arc.io/address/0xc865a32b3446e46760bf551f0fa9a8476b0a9e03
+- X: https://x.com/0xscanie
+
+## Find me on X
+
+scanïe — [@0xscanie](https://x.com/0xscanie)
+
+https://x.com/0xscanie
