@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Wallets — 0xscania.muse</title>
-<meta name="description" content="Public addresses for scanïa's multi-chain burner wallet 0xscania.muse.ai.bw and Circle agent wallet on Arc. Public addresses only — no seed, no private keys.">
+<meta name="description" content="Public addresses for scanïa's multi-chain burner wallets 0xscania.muse.ai.bw and 0xscania.muse.ai.bw2 and Circle agent wallet on Arc. Public addresses only — no seed, no private keys.">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -14,6 +14,7 @@
     <a href="index.html">Home</a>
     <a href="wallets.html" class="active">Wallets</a>
     <a href="faucets.html">Faucets</a>
+    <a href="https://x.com/0xscanie">X ↗</a>
     <a href="https://github.com/0xscania/0xscania.muse.ai.bw">GitHub ↗</a>
   </nav>
 </header>
@@ -21,56 +22,85 @@
   <section class="hero">
     <p class="eyebrow">Public addresses only</p>
     <h1>Wallets</h1>
-    <p class="lede">The seed phrase and private keys are never published — not here, not in the repo.</p>
+    <p class="lede">The seed phrase and private keys are never published — not here, not in the repo. Find me on X: <a href="https://x.com/0xscanie">@0xscanie</a>.</p>
   </section>
 
   <section>
     <div class="section-head">
-      <span class="kicker">Burner wallet</span>
-      <h2>0xscania.muse.ai.bw — multi-chain burner wallet</h2>
-      <p>One BIP39 mnemonic, 12 chains, created 2026-11-20. Every address was re-derived from its private key alone and matched — PASS on all 12 chains. Balances were 0 (empty) at creation. Full public config: <a href="https://github.com/0xscania/0xscania.muse.ai.bw/blob/main/0xscania.muse.ai.bw-public.json">0xscania.muse.ai.bw-public.json ↗</a></p>
+      <span class="kicker">Burner wallets</span>
+      <h2>Burner wallets — two multi-chain wallets</h2>
+      <p>Two wallets, each from its own fresh 24-word BIP39 mnemonic, with the same 12 chains and the same standard derivation paths.</p>
     </div>
-  <div class="table-wrap">
-  <table>
-    <thead><tr><th>Chain</th><th>Derivation path</th><th>Address</th><th></th></tr></thead>
-    <tbody>
-      <tr><td>Bitcoin SegWit mainnet</td><td><code>m/84'/0'/0'/0/0</code></td><td><code>bc1qqmyvqt5kmk9ycpdmj6kgvhwqw9w6kfm486ecut</code></td><td><button data-copy="bc1qqmyvqt5kmk9ycpdmj6kgvhwqw9w6kfm486ecut">Copy</button></td></tr>
-      <tr><td>Bitcoin SegWit testnet</td><td><code>m/84'/1'/0'/0/0</code></td><td><code>tb1qe2a2fkft8vl5a4mvyx3l6hy7nv4ne2gss8pcpf</code></td><td><button data-copy="tb1qe2a2fkft8vl5a4mvyx3l6hy7nv4ne2gss8pcpf">Copy</button></td></tr>
-      <tr><td>Litecoin SegWit mainnet</td><td><code>m/84'/2'/0'/0/0</code></td><td><code>ltc1q70f9n8dh6l4mf05fjv6k76znkctjsgmpz3y9sd</code></td><td><button data-copy="ltc1q70f9n8dh6l4mf05fjv6k76znkctjsgmpz3y9sd">Copy</button></td></tr>
-      <tr><td>Dogecoin mainnet</td><td><code>m/44'/3'/0'/0/0</code></td><td><code>DNY837auSXb8JddTWwYqwEowXFNGCw1Q2w</code></td><td><button data-copy="DNY837auSXb8JddTWwYqwEowXFNGCw1Q2w">Copy</button></td></tr>
-      <tr><td>EVM — all chains, same address</td><td><code>m/44'/60'/0'/0/0</code></td><td><code>0x6b77c0257f9C2eFd62d4F97C8c3926B7039bAc31</code></td><td><button data-copy="0x6b77c0257f9C2eFd62d4F97C8c3926B7039bAc31">Copy</button></td></tr>
-      <tr><td>Solana</td><td><code>m/44'/501'/0'/0'</code></td><td><code>6NENQcfDVwHQ5SmexqarwdmRbjDZPxvqB38yCoNczKiD</code></td><td><button data-copy="6NENQcfDVwHQ5SmexqarwdmRbjDZPxvqB38yCoNczKiD">Copy</button></td></tr>
-      <tr><td>TRON</td><td><code>m/44'/195'/0'/0/0</code></td><td><code>TAmCFXPZ569mEwKGgB6nS2ABny6NbTfehc</code></td><td><button data-copy="TAmCFXPZ569mEwKGgB6nS2ABny6NbTfehc">Copy</button></td></tr>
-      <tr><td>Sui</td><td><code>m/44'/784'/0'/0'/0'</code></td><td><code>0xbbb9cd84b10db1dd2ba37a3087b74f174c633085bb539a46b791eef1f9d6455a</code></td><td><button data-copy="0xbbb9cd84b10db1dd2ba37a3087b74f174c633085bb539a46b791eef1f9d6455a">Copy</button></td></tr>
-      <tr><td>TON / GRAM</td><td><code>m/44'/607'/0'</code></td><td><code>UQA_KgzpxbP2Cy-qVitfmWsW_Mv0nJP_fdSlf-4H9tWjen9G</code></td><td><button data-copy="UQA_KgzpxbP2Cy-qVitfmWsW_Mv0nJP_fdSlf-4H9tWjen9G">Copy</button></td></tr>
-      <tr><td>NEAR (implicit account)</td><td><code>m/44'/397'/0'</code></td><td><code>bb8d8f1416dba44561c777b79a27f1f3008e8b8a2313c4fca4a076d3f149cce7</code></td><td><button data-copy="bb8d8f1416dba44561c777b79a27f1f3008e8b8a2313c4fca4a076d3f149cce7">Copy</button></td></tr>
-      <tr><td>Cosmos / ATOM</td><td><code>m/44'/118'/0'/0/0</code></td><td><code>cosmos10gvruurgl30pa2u6vw0eqy44xesv6ft8puncqq</code></td><td><button data-copy="cosmos10gvruurgl30pa2u6vw0eqy44xesv6ft8puncqq">Copy</button></td></tr>
-      <tr><td>Aptos</td><td><code>m/44'/637'/0'/0'/0'</code></td><td><code>0xa40f67a6c394f22a7e50ccf96a7487541adad59cda5fa05928a3fa16ffd5ed16</code></td><td><button data-copy="0xa40f67a6c394f22a7e50ccf96a7487541adad59cda5fa05928a3fa16ffd5ed16">Copy</button></td></tr>
-    </tbody>
-  </table>
-  </div>
+    <h3>Testnet wallet — 0xscania.muse.ai.bw</h3>
+    <p>One BIP39 mnemonic, 12 chains, created 2026-11-20. Every address was re-derived from its private key alone and matched — PASS on all 12 chains. Balances were 0 (empty) at creation. Full public config: <code>0xscania.muse.ai.bw-public.json</code> in the <a href="https://github.com/0xscania/0xscania.muse.ai.bw">private repo</a>.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Chain</th><th>Derivation path</th><th>Address</th><th></th></tr></thead>
+        <tbody>
+          <tr><td>Bitcoin SegWit mainnet</td><td><code>m/84'/0'/0'/0/0</code></td><td><code>bc1qqmyvqt5kmk9ycpdmj6kgvhwqw9w6kfm486ecut</code></td><td><button data-copy="bc1qqmyvqt5kmk9ycpdmj6kgvhwqw9w6kfm486ecut">Copy</button></td></tr>
+          <tr><td>Bitcoin SegWit testnet</td><td><code>m/84'/1'/0'/0/0</code></td><td><code>tb1qe2a2fkft8vl5a4mvyx3l6hy7nv4ne2gss8pcpf</code></td><td><button data-copy="tb1qe2a2fkft8vl5a4mvyx3l6hy7nv4ne2gss8pcpf">Copy</button></td></tr>
+          <tr><td>Litecoin SegWit mainnet</td><td><code>m/84'/2'/0'/0/0</code></td><td><code>ltc1q70f9n8dh6l4mf05fjv6k76znkctjsgmpz3y9sd</code></td><td><button data-copy="ltc1q70f9n8dh6l4mf05fjv6k76znkctjsgmpz3y9sd">Copy</button></td></tr>
+          <tr><td>Dogecoin mainnet</td><td><code>m/44'/3'/0'/0/0</code></td><td><code>DNY837auSXb8JddTWwYqwEowXFNGCw1Q2w</code></td><td><button data-copy="DNY837auSXb8JddTWwYqwEowXFNGCw1Q2w">Copy</button></td></tr>
+          <tr><td>EVM — all chains, same address</td><td><code>m/44'/60'/0'/0/0</code></td><td><code>0x6b77c0257f9C2eFd62d4F97C8c3926B7039bAc31</code></td><td><button data-copy="0x6b77c0257f9C2eFd62d4F97C8c3926B7039bAc31">Copy</button></td></tr>
+          <tr><td>Solana</td><td><code>m/44'/501'/0'/0'</code></td><td><code>6NENQcfDVwHQ5SmexqarwdmRbjDZPxvqB38yCoNczKiD</code></td><td><button data-copy="6NENQcfDVwHQ5SmexqarwdmRbjDZPxvqB38yCoNczKiD">Copy</button></td></tr>
+          <tr><td>TRON</td><td><code>m/44'/195'/0'/0/0</code></td><td><code>TAmCFXPZ569mEwKGgB6nS2ABny6NbTfehc</code></td><td><button data-copy="TAmCFXPZ569mEwKGgB6nS2ABny6NbTfehc">Copy</button></td></tr>
+          <tr><td>Sui</td><td><code>m/44'/784'/0'/0'/0'</code></td><td><code>0xbbb9cd84b10db1dd2ba37a3087b74f174c633085bb539a46b791eef1f9d6455a</code></td><td><button data-copy="0xbbb9cd84b10db1dd2ba37a3087b74f174c633085bb539a46b791eef1f9d6455a">Copy</button></td></tr>
+          <tr><td>TON / GRAM</td><td><code>m/44'/607'/0'</code></td><td><code>UQA_KgzpxbP2Cy-qVitfmWsW_Mv0nJP_fdSlf-4H9tWjen9G</code></td><td><button data-copy="UQA_KgzpxbP2Cy-qVitfmWsW_Mv0nJP_fdSlf-4H9tWjen9G">Copy</button></td></tr>
+          <tr><td>NEAR (implicit account)</td><td><code>m/44'/397'/0'</code></td><td><code>bb8d8f1416dba44561c777b79a27f1f3008e8b8a2313c4fca4a076d3f149cce7</code></td><td><button data-copy="bb8d8f1416dba44561c777b79a27f1f3008e8b8a2313c4fca4a076d3f149cce7">Copy</button></td></tr>
+          <tr><td>Cosmos / ATOM</td><td><code>m/44'/118'/0'/0/0</code></td><td><code>cosmos10gvruurgl30pa2u6vw0eqy44xesv6ft8puncqq</code></td><td><button data-copy="cosmos10gvruurgl30pa2u6vw0eqy44xesv6ft8puncqq">Copy</button></td></tr>
+          <tr><td>Aptos</td><td><code>m/44'/637'/0'/0'/0'</code></td><td><code>0xa40f67a6c394f22a7e50ccf96a7487541adad59cda5fa05928a3fa16ffd5ed16</code></td><td><button data-copy="0xa40f67a6c394f22a7e50ccf96a7487541adad59cda5fa05928a3fa16ffd5ed16">Copy</button></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <h3>Mainnet-ready wallet — 0xscania.muse.ai.bw2</h3>
+    <p>A second, separate wallet with its own fresh 24-word BIP39 mnemonic, 12 chains, created 2026-11-20 and added 2026-11-21. Mainnet-ready. Full public config: <code>0xscania.muse.ai.bw2-public.json</code> in the <a href="https://github.com/0xscania/0xscania.muse.ai.bw">private repo</a>.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Chain</th><th>Derivation path</th><th>Address</th><th></th></tr></thead>
+        <tbody>
+          <tr><td>Bitcoin SegWit mainnet</td><td><code>m/84'/0'/0'/0/0</code></td><td><code>bc1qxk36aaalmvhqgpuzf5206c3ahmyu3nswgvr95f</code></td><td><button data-copy="bc1qxk36aaalmvhqgpuzf5206c3ahmyu3nswgvr95f">Copy</button></td></tr>
+          <tr><td>Bitcoin SegWit testnet</td><td><code>m/84'/1'/0'/0/0</code></td><td><code>tb1q2fmuawv548fx7pmv3430kcj0wsnk2954pzrthx</code></td><td><button data-copy="tb1q2fmuawv548fx7pmv3430kcj0wsnk2954pzrthx">Copy</button></td></tr>
+          <tr><td>Litecoin SegWit mainnet</td><td><code>m/84'/2'/0'/0/0</code></td><td><code>ltc1qnex6kyf2xkl9rqjssyullgkrmfptwmn5pwhd4j</code></td><td><button data-copy="ltc1qnex6kyf2xkl9rqjssyullgkrmfptwmn5pwhd4j">Copy</button></td></tr>
+          <tr><td>Dogecoin mainnet</td><td><code>m/44'/3'/0'/0/0</code></td><td><code>DE9GNZhmVwjt3RLeuZhGJS6o4whGivokvK</code></td><td><button data-copy="DE9GNZhmVwjt3RLeuZhGJS6o4whGivokvK">Copy</button></td></tr>
+          <tr><td>EVM — all chains, same address</td><td><code>m/44'/60'/0'/0/0</code></td><td><code>0x0FC10d5E4c626C14d39934e8dc9a91E33C7810a7</code></td><td><button data-copy="0x0FC10d5E4c626C14d39934e8dc9a91E33C7810a7">Copy</button></td></tr>
+          <tr><td>Solana</td><td><code>m/44'/501'/0'/0'</code></td><td><code>62KKMQcPG2rKgQy2zctpmkitfDhCGR6VU6AaEehx2bzz</code></td><td><button data-copy="62KKMQcPG2rKgQy2zctpmkitfDhCGR6VU6AaEehx2bzz">Copy</button></td></tr>
+          <tr><td>TRON</td><td><code>m/44'/195'/0'/0/0</code></td><td><code>TVcYtQz1xCrd1vrVshVTTT7EJ76H5pLRMK</code></td><td><button data-copy="TVcYtQz1xCrd1vrVshVTTT7EJ76H5pLRMK">Copy</button></td></tr>
+          <tr><td>Sui</td><td><code>m/44'/784'/0'/0'/0'</code></td><td><code>0x7ec8ce2def14f1fe3af587c363d6dfb3c3ea8921f061073ac3b905d2be867a7b</code></td><td><button data-copy="0x7ec8ce2def14f1fe3af587c363d6dfb3c3ea8921f061073ac3b905d2be867a7b">Copy</button></td></tr>
+          <tr><td>TON / GRAM</td><td><code>m/44'/607'/0'</code></td><td><code>UQBZoyEbJjCWC8lZ98MiL_pxrQbTDfuepQoR8CKhikdOgb67</code></td><td><button data-copy="UQBZoyEbJjCWC8lZ98MiL_pxrQbTDfuepQoR8CKhikdOgb67">Copy</button></td></tr>
+          <tr><td>NEAR (implicit account)</td><td><code>m/44'/397'/0'</code></td><td><code>5341eada29dd0464f867bed4b1b505c3b756d5ad57881c88d71e5ddd1d90bd72</code></td><td><button data-copy="5341eada29dd0464f867bed4b1b505c3b756d5ad57881c88d71e5ddd1d90bd72">Copy</button></td></tr>
+          <tr><td>Cosmos / ATOM</td><td><code>m/44'/118'/0'/0/0</code></td><td><code>cosmos1s49jzug7wtsp5rdxjkgf4uf69r6340da8pjeqn</code></td><td><button data-copy="cosmos1s49jzug7wtsp5rdxjkgf4uf69r6340da8pjeqn">Copy</button></td></tr>
+          <tr><td>Aptos</td><td><code>m/44'/637'/0'/0'/0'</code></td><td><code>0xd9b4cba0fc3f693024a8ef54ead8dfb2b6f92c35b4d73b7c868267f79212aae6</code></td><td><button data-copy="0xd9b4cba0fc3f693024a8ef54ead8dfb2b6f92c35b4d73b7c868267f79212aae6">Copy</button></td></tr>
+        </tbody>
+      </table>
+    </div>
   </section>
 
   <section>
     <div class="section-head">
       <span class="kicker">Circle agent wallet</span>
       <h2>Circle agent wallet — Arc</h2>
-      <p>Separate from the burner wallet. Circle Agent Wallet CLI 1.4.0, email 0xscania@gmail.com, Terms v1 accepted 2026-11-20. Funding is testnet only first — mainnet deferred until scanïa says ready.</p>
+      <p>Separate from the burner wallets. Circle Agent Wallet CLI 1.4.0, email 0xscania@gmail.com, Terms v1 accepted 2026-11-20. Both logins VALID, expiring ~28 days from 2026-11-20. Funding is testnet only first — mainnet is deferred until scanïa says ready.</p>
     </div>
-  <div class="table-wrap">
-  <table>
-    <thead><tr><th>Wallet</th><th>Chain</th><th>Address</th><th></th></tr></thead>
-    <tbody>
-      <tr><td>Testnet</td><td>ARC-TESTNET</td><td><code>0x91963e48ebc021a9f08ca6b50b6f005207d1d8fd</code></td><td><button data-copy="0x91963e48ebc021a9f08ca6b50b6f005207d1d8fd">Copy</button></td></tr>
-      <tr><td>Mainnet</td><td>ARC</td><td><code>0xc865a32b3446e46760bf551f0fa9a8476b0a9e03</code></td><td><button data-copy="0xc865a32b3446e46760bf551f0fa9a8476b0a9e03">Copy</button></td></tr>
-    </tbody>
-  </table>
-  </div>
-  <p>Testnet balance: 120 USDC + 20 EURC on ARC-TESTNET (as of 2026-11-20). The CLI lists the same 120 USDC twice (native + ERC-20) — it is 120 total, not 240. Explorers: <a href="https://explorer.testnet.arc.io/address/0x91963e48ebc021a9f08ca6b50b6f005207d1d8fd">testnet ↗</a> · <a href="https://explorer.arc.io/address/0xc865a32b3446e46760bf551f0fa9a8476b0a9e03">mainnet ↗</a></p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Wallet</th><th>Chain</th><th>Address</th><th></th></tr></thead>
+        <tbody>
+          <tr><td>Testnet</td><td>ARC-TESTNET</td><td><code>0x91963e48ebc021a9f08ca6b50b6f005207d1d8fd</code></td><td><button data-copy="0x91963e48ebc021a9f08ca6b50b6f005207d1d8fd">Copy</button></td></tr>
+          <tr><td>Mainnet</td><td>ARC</td><td><code>0xc865a32b3446e46760bf551f0fa9a8476b0a9e03</code></td><td><button data-copy="0xc865a32b3446e46760bf551f0fa9a8476b0a9e03">Copy</button></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">Testnet balance: 120 USDC + 20 EURC on ARC-TESTNET (as of 2026-11-20 21:28 GMT+7). The CLI balance lists the same 100 USDC twice (100 native + 100 ERC-20) — it is 100 total, not 200. Faucet runs every 2 hours. Hourly portfolio sync delivers a complete report.</p>
+  </section>
+
+  <section>
+    <h2>Find me on X</h2>
+    <p>scanïe — <a href="https://x.com/0xscanie">@0xscanie</a> — https://x.com/0xscanie</p>
+    <p class="note">The mnemonics and private keys for both wallets are NOT published here (or anywhere else) — only the public addresses are listed. The public configs are in the private repo: <a href="https://github.com/0xscania/0xscania.muse.ai.bw">0xscania.muse.ai.bw</a>.</p>
   </section>
 </main>
 <footer>
-  <p>© 2026 scanïa · 0xscania.muse · <a href="index.html">Home</a> · DYOR on anything — everything.</p>
+  <p>GitHub <a href="https://github.com/0xscania">@0xscania</a> · X <a href="https://x.com/0xscanie">@0xscanie</a> · <a href="https://github.com/0xscania/0xscania.muse.ai.bw">Private repo: burner wallets</a> · <a href="https://github.com/0xscania/0xscania.github.io">This site's repo</a></p>
 </footer>
 <script src="script.js"></script>
 </body>
